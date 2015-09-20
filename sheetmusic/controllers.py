@@ -1,6 +1,11 @@
 from flask import Flask
+from flask import render_template
 from sheetmusic import app
 
 @app.route("/about/")
 def about():
-    return "<h1>About page</h1>"
+    return render_template("about.html")
+
+@app.route("/")
+def landing():
+	 return render_template("index.html")
