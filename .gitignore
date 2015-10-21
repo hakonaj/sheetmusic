@@ -1,0 +1,8 @@
+
+*.py~
+
+dist/sheetmusic-0.1.0.tar.gz
+
+MANIFEST
+
+*.pyc
